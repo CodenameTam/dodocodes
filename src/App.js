@@ -6,6 +6,7 @@ import 'firebase/auth';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 import Collapsible from 'react-collapsible';
+import logo from './img/logo.png';
 
 firebase.initializeApp({
   apiKey: process.env.REACT_APP_API,
@@ -33,7 +34,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <img src={'img/logo2.png'} alt="main logo" />
+        <img src={logo} alt="the main logo" />
         <SignOut />
       </header>
 
