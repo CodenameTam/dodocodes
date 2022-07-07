@@ -183,6 +183,7 @@ function DodoRoom() {
         <label>Island Fruit</label>
         <select
           onChange={(e) => setFruit(e.target.value)}>
+          <option value="">Select</option>
           <option value="🍐">Pear🍐</option>
           <option value="🍒">Cherry🍒</option>
           <option value="🍊">Orange🍊</option>
@@ -193,6 +194,7 @@ function DodoRoom() {
         <label>Hemisphere</label>
         <select
           onChange={(e) => setHemisphere(e.target.value)}>
+          <option value="">Select</option>
           <option value="Northern">Northern</option>
           <option value="Southern">Southern</option>
         </select>
